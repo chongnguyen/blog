@@ -1,0 +1,69 @@
+/*=================== DEFAUT SETUP ================================*/
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-family: 'Noto Sans', Arial, sans-serif;
+	color: #333;
+	line-height: 1.85em;
+	text-rendering:optimizeLegibility
+}
+
+/*================ USE MORE ===========================================*/
+.buttom-link {
+	color: #333;
+	text-decoration: none;
+}
+.row {
+	width: 950px;
+	margin: auto;
+}
+
+/*==================== HEADER ===========================================*/
+.header .row{
+	display: flex;
+	text-transform: uppercase;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo{
+	text-transform: capitalize;
+	font-size: 1.6em;
+	width: 0;
+}
+
+.header .nav {
+	display: flex;
+	list-style: none;
+}
+
+.nav a {
+	color: #666;
+	margin: 0px 20px;
+	font-size: 0.7em;
+	letter-spacing: .175em;
+}
+
+.nav-item:hover,
+.nav-item:active {
+	color: #000;
+	transform: scale(1.1);
+	border-width: 100%;
+	transition: all .3s;
+}
+
+.header .icon-search {
+	color: #aaa;
+}
+
+.header .icon-search:hover,
+.header .icon-search:active {
+	color: #555;
+	transform: scale(1.2);
+	transition: all .3s
+}
