@@ -14,15 +14,38 @@ html {
 
 /* ============== THUONG XUYEN ==================================*/
 .buttom-link {
-	color: #333;
+	color: #666;
 	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: .175em;
+	font-size: 0.7em;
 }
+
+.buttom-link:hover,
+.buttom-link:active {
+	color: #000;
+	transform: scale(1.1);
+	border-width: 100%;
+	transition: all .3s;
+}
+
 .row {
-	width: 950px;
+	width: 1000px;
 	margin: auto;
+}
+
+.link-title {
+	font-size: .7em;
+	color: #aaa;
+}
+
+.read-more {
+	font-size: .7em;
+	font-weight: 900;
 }
 /* ======================= HEADER ==================================*/
 .header .row{
+	margin-top: 20px;
 	display: flex;
 	text-transform: uppercase;
     height: 100px;
@@ -30,10 +53,10 @@ html {
     align-items: center;
 }
 
-.header .logo{
+.header .logo .link-logo{
 	text-transform: capitalize;
 	font-size: 1.6em;
-	width: 100px;
+	width: 50px;
 }
 
 .header .nav {
@@ -42,18 +65,7 @@ html {
 }
 
 .nav a {
-	color: #666;
 	margin: 0px 20px;
-	font-size: 0.7em;
-	letter-spacing: .175em;
-}
-
-.nav-item:hover,
-.nav-item:active {
-	color: #000;
-	transform: scale(1.1);
-	border-width: 100%;
-	transition: all .3s;
 }
 
 .header .icon-search {
@@ -65,4 +77,42 @@ html {
 	color: #555;
 	transform: scale(1.2);
 	transition: all .3s
+}
+
+/* =========================== INTRO ================================================= */
+
+.intro {
+	background-color: #f5f5f5;
+	
+}
+
+.intro .row {
+	display: flex;
+	align-items: center;
+	padding: 70px 0px;
+	height: 80vh;
+}
+
+.intro .intro-picture {
+	width: 50%;
+	margin-right: 60px;
+}
+
+.intro .intro-picture img{
+	width: 100%;
+}
+
+.intro .intro-text {
+	width: 40%;
+}
+
+.intro .intro-text h2 {
+	font-weight: 200;
+	font-style: initial;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.intro .intro-text .text-content {
+	font-size: .9em;
 }
