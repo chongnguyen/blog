@@ -14,7 +14,7 @@ html {
 
 /* ============== THUONG XUYEN ==================================*/
 .buttom-link {
-	color: #666;
+	color: #777;
 	text-decoration: none;
 	text-transform: uppercase;
 	letter-spacing: .175em;
@@ -23,7 +23,7 @@ html {
 
 .buttom-link:hover,
 .buttom-link:active {
-	color: #000;
+	color: #222;
 	transform: scale(1.1);
 	border-width: 100%;
 	transition: all .3s;
@@ -42,6 +42,7 @@ html {
 .read-more {
 	font-size: .7em;
 	font-weight: 900;
+	color: #111;
 }
 /* ======================= HEADER ==================================*/
 .header .row{
@@ -115,4 +116,27 @@ html {
 
 .intro .intro-text .text-content {
 	font-size: .9em;
+}
+
+/* ============================ MAIN ============================================= */
+.main .row {
+	margin-top: 60px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-column-gap: 50px;
+}
+
+.main .row img{
+	width: 100%;
+	
+}
+
+.main .row .main-content .text-title {
+	text-transform: capitalize;
+	font-weight: 500;
+	color: #000;
+	letter-spacing: 0;
+	font-size: 1.1em;
+	margin-bottom: 10px;
+	margin-top: 10px;
 }
